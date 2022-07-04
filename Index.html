@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Styles/Home_page.css">
+    <link rel="stylesheet" href="Styles/Shared.css">
+    <link rel="stylesheet" href="Styles/Home-page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
@@ -14,13 +15,65 @@
 </head>
 <body>
 <nav>
-    <header class="header-area"><img src="TVL.png" class="logo">
+    <header class="header-area"><img src="Images/TVL.png" class="logo">
         <h2>The Vault Labs</h2></header>
 </nav>
-<main>
+<div>
     <marquee direction="right" scrollamount="15" scrolldelay="30" loop="infinite"><p class="welcome-message">Welcome to
         Data Vault </p>
     </marquee>
-</main>
+</div>
+<section id="options">
+    <ul>
+        <li class="items">
+            <div class="card">
+                <div class="image">
+                    <img src="Images/Key-Generator-logo.png">
+                </div>
+                <div class="title">
+                    <h5>Enrollment Key Generator</h5>
+                </div>
+                <div class="description">
+                    <p>Go here to generator enrollment number</p>
+
+                    <button><a href="/"> Click Here</a></button>
+
+                </div>
+            </div>
+        </li>
+        <li class="items">
+            <div class="card">
+                <div class="image">
+                    <img src="Images/Inserting%20Data.png">
+                </div>
+                <div class="title">
+                    <h5>Insert Data</h5>
+                </div>
+                <div class="description">
+                    <p>Go here to insert data in the database</p>
+
+                    <button><a href="/"> Click Here</a></button>
+
+                </div>
+            </div>
+        </li>
+        <li class="items">
+            <div class="card">
+                <div class="image">
+                    <img src="Images/Update.jpg">
+                </div>
+                <div class="title">
+                    <h5>Update Data</h5>
+                </div>
+                <div class="description">
+                    <p>Go here to update data and query data in the database</p>
+
+                    <button><a href="/"> Click Here</a></button>
+
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
 </body>
 </html>

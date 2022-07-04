@@ -1,0 +1,96 @@
+.welcome-message {
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#options {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#options ul {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 5px;
+    padding: 2px;
+}
+
+.items {
+    border-radius: 6px;
+    overflow: hidden;
+    /* It is used to give rounded corners in the images when making card */
+    list-style: none;
+}
+
+.card {
+    width: 100%;
+    background-color: #444144;
+    border-radius: 6px;
+}
+
+.image img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.description p {
+    padding: 5px;
+}
+
+.description button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fffefc;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #444144;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
