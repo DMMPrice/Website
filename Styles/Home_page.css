@@ -2,6 +2,10 @@ html {
     background-color: #000000;
 }
 
+body {
+    color: #ffffff;
+}
+
 .header-area {
     height: 10rem;
     width: 90%;
@@ -13,7 +17,6 @@ html {
 }
 
 nav h2 {
-    color: #ffffff;
     padding: 5rem;
     font-size: 3rem;
     font-family: 'Quicksand', sans-serif;
@@ -22,4 +25,10 @@ nav h2 {
 .logo {
     height: 100%;
     object-fit: cover;
+}
+
+.welcome-message {
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 3.5rem;
+    text-align: center;
 }
